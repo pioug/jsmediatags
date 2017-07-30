@@ -54,6 +54,7 @@
     "google-closure-compiler": "20160315.2.0"
   },
   "scripts": {
+    "issue": "node --inspect-brk issue",
     "test": "jest",
     "build": "babel src --ignore __tests__,__mocks,FlowTypes.js --out-dir build2",
     "watch": "babel --ignore __tests__,__mocks,FlowTypes.js --watch src --out-dir build2",

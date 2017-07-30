@@ -1,0 +1,20 @@
+<script src="../dist/jsmediatags.js"></script>
+<script>
+  jsmediatags.read("https://pioug.github.io/jsmediatags/issue/cry.mp3", {
+    onSuccess: function(tag) {
+      console.log(tag);
+    },
+    onError: function(error) {
+      console.log(error);
+    }
+  });
+
+  jsmediatags.read("https://pioug.github.io/jsmediatags/issue/train.mp3", {
+    onSuccess: function(tag) {
+      console.log(tag);
+    },
+    onError: function(error) {
+      console.log(error);
+    }
+  });
+</script>
